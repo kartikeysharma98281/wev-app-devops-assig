@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Kartikey sharma</title>
+    <style>
+        body {
+            color: #40514E;
+            margin: 0px;
+            text-align: center;
+            font-family: 'Merriweather', serif;
+        }
+
+        .profie-pic {
+            height: 268px;
+        }
+
+        h1 {
+            font-family: 'Sacramento', cursive;
+            margin-top: 50px;
+            font-size: 5.625rem;
+            color: #fefefeee;
+            line-height: 2px;
+        }
+
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5rem;
+            /* color: #66BFBF;  */
+            color: #e0e5ec;
+
+            font-weight: normal;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #11999E;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .topconatiner {
+            background-color: #083f83;
+            position: relative;
+            padding-top: 100px;
+        }
+
+        p {
+            line-height: 2;
+        }
+
+        hr {
+            border: dotted #EAF6F6 6px;
+            border-bottom: none;
+            width: 4%;
+            margin: 100px auto;
+        }
+
+        .top-cloud {
+            position: absolute;
+            right: 409px;
+            top: 50px;
+        }
+
+        .contact-message {
+            width: 40%;
+            margin: 40px auto 60px;
+        }
+
+        .bottom-cloud {
+            position: absolute;
+            left: 445px;
+            bottom: 300px;
+
+        }
+
+        .intro {
+            width: 30%;
+            margin: auto;
+        }
+
+        .skill-row {
+            width: 50%;
+            margin: 100px auto 100px auto;
+            text-align: left;
+        }
+
+        .code-img {
+            width: 25%;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .dev-img {
+            float: right;
+            margin-left: 30px;
+            width: 25%;
+        }
+
+        .middle-container {
+            margin: 100px 0px;
+        }
+
+        .btn {
+            background: #11cdd4;
+            background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+            background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+            background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+            background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+            background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+            -webkit-border-radius: 8;
+            -moz-border-radius: 8;
+            border-radius: 8px;
+            font-family: 'Montserrat', sans-serif;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #30e3cb;
+            background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+            text-decoration: none;
+        }
+
+        .bottom-container {
+            background-color: #66BFBF;
+            padding: 60px 0px 20px;
+        }
+
+        a {
+            color: #11999E;
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px 20px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #EAF6F6;
+        }
+
+        .copyright {
+            color: #EAF6F6;
+            font-size: 0.75rem;
+            padding: 20px 0px;
+        }
+
+        .contact {
+            background: #111;
+        }
+
+        .contact .heading {
+            color: #fff;
+        }
+
+        .contact .row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .contact .row form {
+            flex: 1 1 50rem;
+            background: #222;
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+            align-items: flex-start;
+        }
+
+        .contact .row form .box {
+            height: 5rem;
+            width: 49%;
+            border: .1rem solid #eee;
+            padding: 0 1rem;
+            margin: 1rem 0;
+            font-size: 1.7rem;
+            color: #fff;
+            background: none;
+            text-transform: none;
+        }
+
+        .contact .row form .box:focus {
+            border-color: #f31212;
+        }
+
+        .contact .row form .box::placeholder {
+            text-transform: capitalize;
+        }
+
+        .contact .row form .address {
+            height: 15rem;
+            padding: 1rem;
+            resize: none;
+            width: 100%;
+        }
+
+        .contact .row form .btn:hover {
+            background: #fff;
+            color: #333;
+        }
+
+        .contact .row .image img {
+            height: 80vh;
+            margin-top: 2rem;
+        }
+
+        @media screen and (max-width : 480px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topconatiner">
+        <img class="top-cloud" src="cloud.png" alt="cloud-image" srcset="">
+        <h1>I'm Kartikey</h1>
+        <h2>a programmer</h2>
+        <img class="bottom-cloud" src="cloud.png" alt="cloud-image" srcset="">
+        <img src="mountain.png" alt="" srcset="">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+            <img class="profie-pic" src="pp2.png" alt="profile-pic">
+            <h2>Hello.</h2>
+            <p class="intro">I am a 20 yr old programmer pursuing my BTech in computer science from Vit, Bhopal. I love
+                problem-solving using web development and also making efficient algorithms. Trying new things is another
+                thing I like.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="code-img" src="giphy.gif" alt="">
+                <h3>coding language</h3>
+                <p class="code-skill-des">I know c++ , html , css , javascript , c and also I know python a little bit .
+                    I sharpen my c++ with the help of competitive programing and also by solving data structures and
+                    algorithms problem . I have covered subjects like dsa , os for interview. </p>
+            </div>
+            <div class="skill-row">
+                <img class="dev-img" src="tools-and-utensils.png" alt="">
+                <h3>My achivements</h3>
+                <p class="web-dev-des">I am a 2* coder on codechef and a new with a rating of 701 on codeforces , I also
+                    contributing to Hacktober every year. I am working on the website which is for a car startup its
+                    like an ecommerce website and now I am add new skills to get the best out of me.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>It will help you to communicate with me.</h3>
+            <p class="contact-message">I will be very gratefull if i can help you with my knowledge.</p>
+            <a class="btn" href="">CONTACT ME</a>
+        </div>
+    </div>
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact us</h1>
+
+        <div class="row">
+
+            <form action="https://formsubmit.co/kartikeysharma.sharma@gmail.com" method="post">
+                <input type="text" placeholder="full name" class="box">
+                <input type="email" placeholder="your email" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your Query"></textarea>
+                <input type="submit" class="btn" value="send now">
+            </form>
+
+            <div class="image">
+                <img src="" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/kartikey-sharma-879747220/" target="blank">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/kartikeysharma98281" target="blank">GitHub</a>
+        <p class="copyright">© 2022 kartikey sharma.</p>
+    </div>
+</body>
+
+</html>
